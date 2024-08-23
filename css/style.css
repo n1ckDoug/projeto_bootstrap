@@ -1,0 +1,110 @@
+.navbar {
+    background-color: black;
+}
+
+header .navbar .navbar-brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+header .navbar .navbar-brand span {
+    color: crimson;
+}
+
+.navbar-toggler{
+    border: 0;
+}
+
+.navbar-toggler span{
+    font-size: 27px;
+    color: white;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    color: white !important;
+}
+
+.navbar-nav .nav-link.active{
+    color: crimson;
+}
+
+.navbar-nav .nav-link{
+    text-transform: uppercase;
+    color: #fff;
+    transition: .5s;
+}
+
+.navbar-nav .nav-link:hover{
+    color: crimson;
+}
+
+.nav-link{
+    text-align: center;
+}
+
+
+#home .carousel-inner img{
+    width: 100%;
+    height: 100vh;
+}
+
+section h1{
+    color: crimson;
+    margin: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#precos .card .card-header{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#sobre{
+    margin-top: 20px;
+    background-color: #e7e7e7;
+}
+
+#contato textarea{
+    resize: none;
+}
+
+#contato h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+#contato .social-links img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+#contato .social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#contato .social-links li a {
+    text-decoration: none;
+}
+
+footer p{
+    color: white;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    #home .carousel-inner img{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:767px){
+    #home .carousel-inner img{
+        height: 50vh;
+    }
+}

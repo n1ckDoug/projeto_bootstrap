@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bootstrap - Projeto</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><span>A</span>cademia</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#precos">Preços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://cdn.pixabay.com/photo/2021/11/10/06/23/workout-6783020_1280.jpg" class="d-block"
+                        alt="...">
+                    <div style="top: 30%;" class="carousel-caption">
+                        <h2 class="h1">First slide label</h2>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <a class="btn btn-warning" href="#sobre">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2014/06/23/19/35/fitness-375472_1280.jpg" class="d-block"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839086_1280.jpg" class="d-block"
+                        alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="precos">
+        <div class="container">
+            <h1>Preços</h1>
+            <div class="row justify-content-center">
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header bg-danger text-center">
+                        <h2 class="h1">Diária</h2>
+                        <p>R$ 15,00</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Horários:</h5>
+                        <ul>
+                            <li><strong>Segunda a Sábado</strong></li>
+                            <li>06:00 -- 10:00</li>
+                            <li>15:00 -- 22:00</li>
+                        </ul>
+                        <a href="#" class="btn btn-danger d-block">Assinar</a>
+                    </div>
+                </div>
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header bg-primary text-center">
+                        <p>R$ 100,00 por mês</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title h2">3 dias na semana</h5>
+                        <ul>
+                            <li><strong>Segunda a Sábado</strong></li>
+                            <li>06:00 -- 10:00</li>
+                            <li>15:00 -- 22:00</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary d-block">Assinar</a>
+                    </div>
+                </div>
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header bg-success text-center">
+                        <p>R$ 115,00 por mês</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title h2">4 dias na semana</h5>
+                        <ul>
+                            <li><strong>Segunda a Sábado</strong></li>
+                            <li>06:00 -- 10:00</li>
+                            <li>15:00 -- 22:00</li>
+                        </ul>
+                        <a href="#" class="btn btn-success d-block">Assinar</a>
+                    </div>
+                </div>
+                <div class="card p-0 m-2" style="width: 18rem;">
+                    <div class="card-header bg-warning text-center">
+                        <p>R$ 120,00 por mês</p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title h2 text-center">Todos os dias na semana</h5>
+                        <ul>
+                            <li><strong>Segunda a Sábado</strong></li>
+                            <li>06:00 -- 10:00</li>
+                            <li>15:00 -- 22:00</li>
+                        </ul>
+                        <a href="#" class="btn btn-warning d-block">Assinar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container p-5">
+            <h1>Sobre</h1>
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2 class="h1">Nome do Professor</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore blanditiis expedita minus
+                        libero, a repellendus maiores praesentium perferendis, laboriosam in debitis. Quibusdam,
+                        corrupti dolor maxime voluptas rem culpa. Tenetur doloremque maiores expedita laborum sed
+                        soluta ratione fugiat aperiam repudiandae omnis! Ut eius, officia harum accusamus quia error
+                        sed aliquid temporibus unde facere, optio est vel architecto. Ex eos voluptas alias aut
+                        omnis suscipit ipsam consequatur sunt vitae eius! Omnis sequi impedit libero consequatur
+                        repellat asperiores tenetur quae iste corporis perferendis! Veritatis nisi autem laborum
+                        adipisci maxime dicta, dolores nam aliquid ipsam repudiandae dolorum voluptas nihil
+                        accusantium blanditiis possimus itaque numquam?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore blanditiis expedita minus
+                        libero, a repellendus maiores praesentium perferendis, laboriosam in debitis. Quibusdam,
+                        corrupti dolor maxime voluptas rem culpa. Tenetur doloremque maiores expedita laborum sed
+                        soluta ratione fugiat aperiam repudiandae omnis! Ut eius, officia harum accusamus quia error
+                        sed aliquid temporibus unde facere, optio est vel architecto. Ex eos voluptas alias aut
+                        omnis suscipit ipsam consequatur sunt vitae eius! Omnis sequi impedit libero consequatur
+                        repellat asperiores tenetur quae iste corporis perferendis! Veritatis nisi autem laborum
+                        adipisci maxime dicta, dolores nam aliquid ipsam repudiandae dolorum voluptas nihil
+                        accusantium blanditiis possimus itaque numquam?</p>
+                </div>
+                <div class="col-sm-4">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/09/27/18/52/gym-2793007_1280.jpg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h1>Contato</h1>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome:</label>
+                            <input type="text" class="form-control" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone:</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label" for="mensagem">Mensagem:</label>
+                            <textarea class="form-control" rows="10" name="" id="mensagem" placeholder="Mensagem"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-5">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-sm-3 text-center">
+                    <h3>Redes sociais</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram">
+                                <img src="./images/instagram.png" alt="Logo do Instagram" srcset="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="./images/facebook.png" alt="Logo do Facebook" srcset="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3  text-center">
+                    <h3>Venha até nós</h3>
+                    <p>Rua Qualquer nº 123, Vila Bootstrap - São Paulo - SP</p>
+                </div>
+            </div>
+        </div>
+        <footer class="p-2 text-center bg-dark">
+            <p>&copy;2024 -Todos os direitos reservados.</p>
+        </footer>
+    </section>
+
+    <script src="./lib/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
